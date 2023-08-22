@@ -22,7 +22,11 @@
     }
 
     .text-field {
-        min-width: 32rem;
+        min-width: 29rem;
+    }
+
+    .text-field::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color:transparent;
     }
 
     .info-grid { 

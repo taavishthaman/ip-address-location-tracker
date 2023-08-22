@@ -1,7 +1,7 @@
-import { MapContainer, TileLayer, useMap, Popup, Marker } from 'react-leaflet';
+import { TileLayer, useMap, Popup, Marker } from 'react-leaflet';
 import {Icon} from 'leaflet'
 import iconLocation from '../images/icon-location.svg';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 export default function Map({location, lat, lng}) {
     // let position = [location.lat, location.lng];
@@ -23,7 +23,7 @@ export default function Map({location, lat, lng}) {
             />
             <Marker position={[lat, lng]} icon={blackMarker}>
                 <Popup>
-                    A pretty CSS3 popup. <br /> Easily customizable.
+                    Lat: {lat} <br /> Lng: {lng}
                 </Popup>
             </Marker>
         </>
