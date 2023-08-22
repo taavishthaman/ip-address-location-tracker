@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Rubik';
+}
+
+body {
+  overflow: hidden;
+}
+
+header {
+  background-image: url('images/pattern-bg-desktop.png');
+  height: 28rem;
+}
+
+.title {
+  color: #FFF;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem; /* 93.75% */
+  letter-spacing: -0.286px;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.search {
+  margin-top: 3.1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.text-field {
+  min-width: 49.7rem;
+  height: 5.8rem;
+  border: none;
+  color: #2C2C2C;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 2.4rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  box-shadow: none;
+}
+
+.btn {
+  height: 5.8rem;
+  width: 5.8rem;
+  border: none;
+  background: none;
+  background-color: #000;
+  cursor: pointer;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #3F3F3F;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #FFF;
+  height: 16.1rem;
+  width: 75%;
+  border-radius: 1.5rem;
+  box-shadow: 0px 5rem 5rem -2.5rem rgba(0, 0, 0, 0.10);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 19.5rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 20;
+}
+
+.info-block {
+  border-right: 1px solid rgb(0,0,0,0.15);
+}
+
+.info-inner-block {
+  padding-left : 3.2rem;
+  padding-right: 3.2rem;
+  height: 7.5rem;
+}
+
+.info-title {
+  color: #2C2C2C;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  opacity: 0.4987;
+}
+
+.info-value {
+  color: #2C2C2C;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem; /* 115.385% */
+  letter-spacing: -0.232px;
+  margin-top: 1.3rem;
+}
+
+.info-grid .info-block:last-child {
+  border: none;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}

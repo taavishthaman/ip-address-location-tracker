@@ -1,0 +1,53 @@
+/*
+    RESPONSIVE DESIGN : MOBILE
+*/
+
+@media (max-width : 47rem) {
+    header {
+        background-image: none;
+        background-image: url('images/pattern-bg-mobile.png');
+        height: 30rem;
+    }
+
+    .title {
+        color: #FFF;
+        font-size: 2.6rem;
+        letter-spacing: -0.232px;
+    }
+
+    .info-grid {
+        grid-template-columns: 1fr;
+        padding-top: 2.6rem;
+        column-gap: 2.4rem;
+    }
+
+    .text-field {
+        min-width: 32rem;
+    }
+
+    .info-grid { 
+        height: 29.4rem;
+        text-align: center;
+    }
+
+    .info-block {
+        border: none;
+    }
+
+    .info-inner-block {
+        height: 4.1rem;
+    }
+
+    .info-title {
+        color: #2C2C2C;
+        font-size: 1rem;
+        letter-spacing: 1.458px;
+    }
+
+    .info-value {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        letter-spacing: -0.179px;
+        margin-top: .7rem;
+    }
+}
